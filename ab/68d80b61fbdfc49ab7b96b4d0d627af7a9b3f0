@@ -1,0 +1,21 @@
+package.json
+  s_f6d442c1a95ae0::t_73b26e0b0af776 8
+README.md
+  s_f6d442c1a95ae0::t_73b26e0b0af776 5-18
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "ab68d80b61fbdfc49ab7b96b4d0d627af7a9b3f0",
+  "prompts": {},
+  "sessions": {
+    "s_f6d442c1a95ae0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0af51-07d4-7173-a75a-eb3161a50456",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Ethan Denny <ethandenny@protonmail.com>"
+    }
+  }
+}
