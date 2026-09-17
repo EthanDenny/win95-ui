@@ -1,0 +1,57 @@
+{
+  "name": "@ethandenny/win95-ui",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Pixel-accurate Windows 95 React components.",
+  "files": [
+    "src/assets",
+    "src/components",
+    "src/fonts",
+    "src/assetUrls.ts",
+    "src/bitmapFont.ts",
+    "src/captionGlyphs.ts",
+    "src/collectionModel.ts",
+    "src/cursorHotspots.json",
+    "src/cursors.css",
+    "src/icons.ts",
+    "src/index.ts",
+    "src/resizeCursor.ts",
+    "src/styles.css",
+    "src/theme.ts",
+    "src/useResizeCursor.ts",
+    "src/useWin95Cursors.ts",
+    "README.md"
+  ],
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "import": "./src/index.ts"
+    },
+    "./styles.css": "./src/styles.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "test": "tsx --tsconfig tsconfig.app.json --test scripts/test-*.ts",
+    "verify:apps": "tsx scripts/verify-apps.ts",
+    "verify:fonts": "tsx scripts/verify-fonts.ts"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "^1.0.9",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "tsx": "^4.23.13",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "arrow": {
+    "x": 0,
+    "y": 0,
+    "width": 32,
+    "height": 32
+  },
+  "ibeam": {
+    "x": 15,
+    "y": 16,
+    "width": 32,
+    "height": 32
+  },
+  "sizewe": {
+    "x": 10,
+    "y": 10,
+    "width": 32,
+    "height": 32
+  },
+  "no": {
+    "x": 10,
+    "y": 10,
+    "width": 32,
+    "height": 32
+  },
+  "sizens": {
+    "x": 15,
+    "y": 16,
+    "width": 32,
+    "height": 32
+  },
+  "sizenwse": {
+    "x": 16,
+    "y": 16,
+    "width": 32,
+    "height": 32
+  },
+  "sizenesw": {
+    "x": 16,
+    "y": 16,
+    "width": 32,
+    "height": 32
+  }
+}

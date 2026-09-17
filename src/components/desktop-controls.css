@@ -1,0 +1,19 @@
+.w95-desktop-taskbar { background: #c0c0c0; box-shadow: inset 0 1px #dfdfdf, inset 0 2px #fff; }
+.w95-taskbar-separator { position: absolute; left: 59px; top: 4px; width: 2px; height: 22px; background: linear-gradient(to right, #808080 1px, #fff 1px); }
+.w95-taskbar-clock { position: absolute; right: 3px; top: 4px; width: 89px; height: 22px; padding: 4px 9px; }
+.w95-start-menu { position: absolute; }
+.w95-start-rail { position: absolute; left: 3px; top: 3px; width: 22px; height: 159px; background: #808080; color: #fff; font-weight: 700; padding: 141px 4px 0; }
+button.w95-start-item { position: absolute; left: 26px; width: 169px; height: 36px; margin: 0; padding: 0; border: 0; border-radius: 0; background: transparent; color: #000; font: 400 13px/13px 'Chat95 MS Sans Serif', sans-serif; text-align: left; }
+.w95-start-item img { position: absolute; top: 2px; left: 5px; image-rendering: pixelated; }
+.w95-start-item span { position: absolute; left: 43px; top: 10px; }
+button.w95-start-item:hover, .w95-start-menu:not(:has(button:hover)) button.w95-start-item:focus-visible { background: #000080; color: #fff; outline: none; }
+.w95-start-separator { position: absolute; left: 28px; top: 123px; width: 163px; height: 2px; background: linear-gradient(#808080 1px, #fff 1px); }
+button.w95-show-desktop { height: 33px; padding-left: 13px; }
+button.w95-desktop-icon { position: absolute; width: 74px; height: 68px; border: 0; padding: 0; background: transparent; color: #fff; font: 400 13px/13px 'Chat95 MS Sans Serif',sans-serif; }
+.w95-desktop-icon img { position: absolute; top: 3px; left: 20px; image-rendering: pixelated; }
+.w95-desktop-icon span { position: absolute; top: 39px; left: 0; width: 74px; text-align: center; text-shadow: 1px 1px #000; }
+.w95-desktop-icon:focus-visible { outline: none; }
+.w95-desktop-icon:focus-visible span { background: #000080; outline: 1px dotted #fff; outline-offset: -1px; }
+
+button.w95-start-item:disabled, button.w95-start-item:disabled:hover { color: #808080; background: transparent; text-shadow: 1px 1px #fff; }
+button.w95-panel-icon:disabled, button.w95-desktop-icon:disabled { color: #808080; text-shadow: 1px 1px #fff; }

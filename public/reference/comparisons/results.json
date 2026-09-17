@@ -1,0 +1,56 @@
+[
+  {
+    "id": "calculator",
+    "width": 276,
+    "height": 272,
+    "pixels": 75072,
+    "different": 0,
+    "exactMatchPercent": 100,
+    "regions": {
+      "chrome": {
+        "total": 11592,
+        "different": 0
+      },
+      "content": {
+        "total": 63480,
+        "different": 0
+      }
+    }
+  },
+  {
+    "id": "control-panel",
+    "width": 415,
+    "height": 362,
+    "pixels": 150230,
+    "different": 0,
+    "exactMatchPercent": 100,
+    "regions": {
+      "chrome": {
+        "total": 17430,
+        "different": 0
+      },
+      "content": {
+        "total": 132800,
+        "different": 0
+      }
+    }
+  },
+  {
+    "id": "browser",
+    "width": 480,
+    "height": 321,
+    "pixels": 154080,
+    "different": 0,
+    "exactMatchPercent": 100,
+    "regions": {
+      "chrome": {
+        "total": 20160,
+        "different": 0
+      },
+      "content": {
+        "total": 133920,
+        "different": 0
+      }
+    }
+  }
+]

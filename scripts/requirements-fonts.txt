@@ -1,0 +1,2 @@
+monobit==0.54.0
+fonttools==4.65.0

@@ -1,0 +1,278 @@
+{
+  "fixtures": [
+    {
+      "id": "ui-regular",
+      "source": "control-panel",
+      "text": "Date/Time",
+      "font": {
+        "family": "ms-sans-serif",
+        "size": 8,
+        "weight": "regular"
+      },
+      "x": 243,
+      "y": 82,
+      "color": "#000000",
+      "background": "#ffffff",
+      "width": 51,
+      "height": 13,
+      "different": 0,
+      "pixels": 663
+    },
+    {
+      "id": "ui-bold",
+      "source": "control-panel",
+      "text": "Control Panel",
+      "font": {
+        "family": "ms-sans-serif",
+        "size": 8,
+        "weight": "bold"
+      },
+      "x": 24,
+      "y": 6,
+      "color": "#ffffff",
+      "background": "#000080",
+      "width": 76,
+      "height": 13,
+      "different": 0,
+      "pixels": 988
+    },
+    {
+      "id": "system-native-bold",
+      "source": "calculator",
+      "text": "Back",
+      "font": {
+        "family": "system",
+        "size": 10,
+        "weight": "bold"
+      },
+      "x": 115,
+      "y": 99,
+      "color": "#800000",
+      "background": "#c0c0c0",
+      "width": 32,
+      "height": 16,
+      "different": 0,
+      "pixels": 512
+    },
+    {
+      "id": "fixedsys-document",
+      "source": "notepad",
+      "text": "This document provides",
+      "font": {
+        "family": "fixedsys",
+        "size": 12,
+        "weight": "regular"
+      },
+      "x": 7,
+      "y": 165,
+      "color": "#000000",
+      "background": "#ffffff",
+      "width": 176,
+      "height": 15,
+      "different": 0,
+      "pixels": 2640
+    },
+    {
+      "id": "fixedsys-heading",
+      "source": "notepad",
+      "text": "How to Use This Document",
+      "font": {
+        "family": "fixedsys",
+        "size": 12,
+        "weight": "regular"
+      },
+      "x": 7,
+      "y": 240,
+      "color": "#000000",
+      "background": "#ffffff",
+      "width": 192,
+      "height": 15,
+      "different": 0,
+      "pixels": 2880
+    }
+  ],
+  "specimens": [
+    {
+      "label": "MS Sans Serif · 8 pt",
+      "font": {
+        "family": "ms-sans-serif",
+        "size": 8,
+        "weight": "regular"
+      },
+      "width": 238,
+      "height": 135,
+      "glyphs": 218,
+      "source": "SSERIFE.FON",
+      "cellHeight": 13
+    },
+    {
+      "label": "MS Sans Serif · 8 pt bold",
+      "font": {
+        "family": "ms-sans-serif",
+        "size": 8,
+        "weight": "bold"
+      },
+      "width": 270,
+      "height": 135,
+      "glyphs": 218,
+      "source": "SSERIFE.FON",
+      "cellHeight": 13
+    },
+    {
+      "label": "System · 10 pt (native bold)",
+      "font": {
+        "family": "system",
+        "size": 10,
+        "weight": "bold"
+      },
+      "width": 295,
+      "height": 156,
+      "glyphs": 218,
+      "source": "VGASYS.FON",
+      "cellHeight": 16
+    },
+    {
+      "label": "Fixedsys · 12 pt",
+      "font": {
+        "family": "fixedsys",
+        "size": 12,
+        "weight": "regular"
+      },
+      "width": 272,
+      "height": 149,
+      "glyphs": 218,
+      "source": "VGAFIX.FON",
+      "cellHeight": 15
+    },
+    {
+      "label": "MS Sans Serif · 10 pt",
+      "font": {
+        "family": "ms-sans-serif",
+        "size": 10,
+        "weight": "regular"
+      },
+      "width": 290,
+      "height": 156,
+      "glyphs": 218,
+      "source": "SSERIFE.FON",
+      "cellHeight": 16
+    },
+    {
+      "label": "MS Sans Serif · 10 pt bold",
+      "font": {
+        "family": "ms-sans-serif",
+        "size": 10,
+        "weight": "bold"
+      },
+      "width": 322,
+      "height": 156,
+      "glyphs": 218,
+      "source": "SSERIFE.FON",
+      "cellHeight": 16
+    },
+    {
+      "label": "MS Sans Serif · 12 pt",
+      "font": {
+        "family": "ms-sans-serif",
+        "size": 12,
+        "weight": "regular"
+      },
+      "width": 344,
+      "height": 184,
+      "glyphs": 218,
+      "source": "SSERIFE.FON",
+      "cellHeight": 20
+    },
+    {
+      "label": "MS Sans Serif · 12 pt bold",
+      "font": {
+        "family": "ms-sans-serif",
+        "size": 12,
+        "weight": "bold"
+      },
+      "width": 376,
+      "height": 184,
+      "glyphs": 218,
+      "source": "SSERIFE.FON",
+      "cellHeight": 20
+    },
+    {
+      "label": "MS Sans Serif · 14 pt",
+      "font": {
+        "family": "ms-sans-serif",
+        "size": 14,
+        "weight": "regular"
+      },
+      "width": 399,
+      "height": 212,
+      "glyphs": 218,
+      "source": "SSERIFE.FON",
+      "cellHeight": 24
+    },
+    {
+      "label": "MS Sans Serif · 14 pt bold",
+      "font": {
+        "family": "ms-sans-serif",
+        "size": 14,
+        "weight": "bold"
+      },
+      "width": 431,
+      "height": 212,
+      "glyphs": 218,
+      "source": "SSERIFE.FON",
+      "cellHeight": 24
+    },
+    {
+      "label": "MS Sans Serif · 18 pt",
+      "font": {
+        "family": "ms-sans-serif",
+        "size": 18,
+        "weight": "regular"
+      },
+      "width": 505,
+      "height": 247,
+      "glyphs": 218,
+      "source": "SSERIFE.FON",
+      "cellHeight": 29
+    },
+    {
+      "label": "MS Sans Serif · 18 pt bold",
+      "font": {
+        "family": "ms-sans-serif",
+        "size": 18,
+        "weight": "bold"
+      },
+      "width": 537,
+      "height": 247,
+      "glyphs": 218,
+      "source": "SSERIFE.FON",
+      "cellHeight": 29
+    },
+    {
+      "label": "MS Sans Serif · 24 pt",
+      "font": {
+        "family": "ms-sans-serif",
+        "size": 24,
+        "weight": "regular"
+      },
+      "width": 670,
+      "height": 303,
+      "glyphs": 218,
+      "source": "SSERIFE.FON",
+      "cellHeight": 37
+    },
+    {
+      "label": "MS Sans Serif · 24 pt bold",
+      "font": {
+        "family": "ms-sans-serif",
+        "size": 24,
+        "weight": "bold"
+      },
+      "width": 702,
+      "height": 303,
+      "glyphs": 218,
+      "source": "SSERIFE.FON",
+      "cellHeight": 37
+    }
+  ]
+}

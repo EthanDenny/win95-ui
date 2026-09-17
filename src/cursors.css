@@ -1,0 +1,29 @@
+:root {
+  --win95-arrow: url('./assets/cursors/arrow.cur'), default;
+  --win95-ibeam: url('./assets/cursors/ibeam.cur'), text;
+  --win95-sizewe: url('./assets/cursors/sizewe.cur'), col-resize;
+  --win95-no: url('./assets/cursors/no.cur'), not-allowed;
+}
+
+html, body, #root, #root * { cursor: var(--win95-arrow); }
+#root input:not([type='checkbox']):not([type='radio']):not([type='range']),
+#root textarea, #root [contenteditable='true'] { cursor: var(--win95-ibeam); }
+#root .splitter-hit, #root .w95-splitter { cursor: var(--win95-sizewe); }
+#root :disabled, #root :disabled *, #root [aria-disabled='true'], #root [aria-disabled='true'] * { cursor: var(--win95-no); }
+
+:root {
+  --win95-sizens: url('./assets/cursors/sizens.cur'), ns-resize;
+  --win95-sizenwse: url('./assets/cursors/sizenwse.cur'), nwse-resize;
+  --win95-sizenesw: url('./assets/cursors/sizenesw.cur'), nesw-resize;
+}
+#root .resize-n, #root .resize-s { cursor: var(--win95-sizens); }
+#root .resize-e, #root .resize-w { cursor: var(--win95-sizewe); }
+#root .resize-nw, #root .resize-se { cursor: var(--win95-sizenwse); }
+#root .resize-ne, #root .resize-sw { cursor: var(--win95-sizenesw); }
+
+/* Keep the resize cursor when a captured pointer leaves its original handle. */
+html[data-win95-resizing='sizewe'] { --win95-drag-cursor: var(--win95-sizewe); }
+html[data-win95-resizing='sizens'] { --win95-drag-cursor: var(--win95-sizens); }
+html[data-win95-resizing='sizenwse'] { --win95-drag-cursor: var(--win95-sizenwse); }
+html[data-win95-resizing='sizenesw'] { --win95-drag-cursor: var(--win95-sizenesw); }
+html[data-win95-resizing], html[data-win95-resizing] * { cursor: var(--win95-drag-cursor) !important; }

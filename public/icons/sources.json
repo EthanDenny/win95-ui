@@ -1,0 +1,137 @@
+[
+  {
+    "name": "My Computer",
+    "source32": "w95_16.ico",
+    "source16": "w95_16.ico"
+  },
+  {
+    "name": "Internet Explorer",
+    "source32": "w98_msie2.ico",
+    "source16": "w98_msie2.ico"
+  },
+  {
+    "name": "Folder",
+    "source32": "w95_4.ico",
+    "source16": "w95_4.ico"
+  },
+  {
+    "name": "Open folder",
+    "source32": "w95_21.ico",
+    "source16": "w95_21.ico"
+  },
+  {
+    "name": "Program folder",
+    "source32": "w95_37.ico",
+    "source16": "w95_37.ico"
+  },
+  {
+    "name": "Busy program",
+    "source32": "w95_65.ico",
+    "source16": "w95_65.ico"
+  },
+  {
+    "name": "Control Panel",
+    "source32": "w95_36.ico",
+    "source16": "w95_36.ico"
+  },
+  {
+    "name": "Settings",
+    "source32": "w95_22.ico",
+    "source16": "w95_22.ico"
+  },
+  {
+    "name": "Window",
+    "source32": "w95_3.ico",
+    "source16": "w95_3.ico"
+  },
+  {
+    "name": "Drive",
+    "source32": "w95_9.ico",
+    "source16": "w95_9.ico"
+  },
+  {
+    "name": "Find computer",
+    "source32": "w95_45.ico",
+    "source16": "w95_45.ico"
+  },
+  {
+    "name": "Find document",
+    "source32": "w98_search_file_3.ico",
+    "source16": "w95_23.ico"
+  },
+  {
+    "name": "Notepad",
+    "source32": "w95_60.ico",
+    "source16": "w95_60.ico"
+  },
+  {
+    "name": "Windows document",
+    "source32": "w95_1.ico",
+    "source16": "w95_1.ico"
+  },
+  {
+    "name": "Documents",
+    "source32": "w95_43.ico",
+    "source16": "w95_43.ico"
+  },
+  {
+    "name": "MIDI document",
+    "source32": "w98_midi_bl.ico",
+    "source16": "w98_midi_bl.ico"
+  },
+  {
+    "name": "Help",
+    "source32": "w98_help_book_big.ico",
+    "source16": "w98_help_book_big.ico"
+  },
+  {
+    "name": "Recycle Bin full",
+    "source32": "w95_33.ico",
+    "source16": "w95_33.ico"
+  },
+  {
+    "name": "Recycle Bin empty",
+    "source32": "w95_32.ico",
+    "source16": "w95_32.ico"
+  },
+  {
+    "name": "Tree",
+    "source32": "w95_42.ico",
+    "source16": "w95_42.ico"
+  },
+  {
+    "name": "Sharing",
+    "source32": "w95_29.ico",
+    "source16": "w95_29.ico"
+  },
+  {
+    "name": "Paint",
+    "source32": "w98_paint_old.ico",
+    "source16": "w98_paint_old.ico"
+  },
+  {
+    "name": "Windows",
+    "source32": "w95_40.ico",
+    "source16": "w95_40.ico"
+  },
+  {
+    "name": "Disk",
+    "source32": "w95_68.ico",
+    "source16": "w98_scandisk.ico"
+  },
+  {
+    "name": "Floppy drive",
+    "source32": "w95_7.ico",
+    "source16": "w95_7.ico"
+  },
+  {
+    "name": "Directory open",
+    "source32": "w95_5.ico",
+    "source16": "w95_5.ico"
+  },
+  {
+    "name": "Bitmap document",
+    "source32": "w98_paint_file.ico",
+    "source16": "w98_paint_file.ico"
+  }
+]

@@ -1,0 +1,26 @@
+{
+  "SSERIFE.FON": {
+    "family": "ms-sans-serif",
+    "sha256": "07616c9ac5aa27b2d7e7cfa0a03ffdd08ae9a21b60fa896321276e3a93c51c34",
+    "url": "https://harddisks.pcjs.org/pcx86/68mb/WIN95.json",
+    "path": "/WINDOWS/FONTS/SSERIFE.FON",
+    "date": "1995-07-11 09:50:00",
+    "md5": "8341e7622e9e6b04566162682b60415b"
+  },
+  "VGASYS.FON": {
+    "family": "system",
+    "sha256": "99d326c506b3734245e45e452de62f9526b98abde34c7f8dca990b62abdcc2a8",
+    "url": "https://harddisks.pcjs.org/pcx86/68mb/WIN95.json",
+    "path": "/WINDOWS/FONTS/VGASYS.FON",
+    "date": "1995-07-11 09:50:00",
+    "md5": "a1bacc2ca03294cc38e058071d27f871"
+  },
+  "VGAFIX.FON": {
+    "family": "fixedsys",
+    "sha256": "0fb03ed3a16b08e05b8f4ad68f47fc8182e276affc38b7e1173032b6f3f870ba",
+    "url": "https://harddisks.pcjs.org/pcx86/68mb/WIN95.json",
+    "path": "/WINDOWS/FONTS/VGAFIX.FON",
+    "date": "1995-07-11 09:50:00",
+    "md5": "184542e68903157b99186abf656cea88"
+  }
+}

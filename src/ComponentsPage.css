@@ -1,0 +1,31 @@
+.components-page { padding: 24px 32px; }
+.components-page .design-header { border-bottom: 1px solid #ddd; padding: 8px 0 16px; margin-bottom: 24px; }
+.components-page .design-header > span { margin-left: auto; font-size: 12px; }
+.catalog-layout { display: grid; grid-template-columns: 185px minmax(0, 1fr); gap: 40px; align-items: start; }
+.catalog-sidebar { position: sticky; top: 90px; max-height: calc(100dvh - 110px); overflow: auto; padding-right: 8px; }
+.catalog-sidebar > label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; margin-bottom: 12px; }
+.catalog-sidebar input, .catalog-sidebar select { width: 100%; min-width: 0; padding: 4px; font: inherit; background: #fff; color: #000; border: 1px solid #999; }
+.catalog-sidebar nav { display: flex; flex-direction: column; gap: 3px; }
+.catalog-sidebar nav a { text-decoration: none; padding: 2px 0; font-size: 13px; }
+.catalog-sidebar nav a:hover { text-decoration: underline; }
+.catalog-content { min-width: 0; }
+.catalog-card { padding-bottom: 28px; margin-bottom: 28px; border-bottom: 1px solid #ddd; scroll-margin-top: 100px; }
+.catalog-card-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; margin-bottom: 20px; }
+.catalog-card-heading h2 { margin: 0 0 3px; font-size: 18px; }
+.catalog-card-heading h2 a { text-decoration: none; }
+.catalog-card-heading code { font-size: 12px; overflow-wrap: anywhere; }
+.catalog-card-heading > button { font-size: 12px; border: 1px solid #999; background: #fff; padding: 2px 8px; }
+.catalog-example { min-height: 28px; overflow-x: auto; padding: 4px 4px 8px; }
+.catalog-source { margin-top: 16px; font-size: 12px; }
+.catalog-source summary { width: fit-content; }
+.catalog-source pre { max-height: 400px; overflow: auto; background: #fff; border: 1px solid #ddd; padding: 12px; font-size: 12px; line-height: 1.5; tab-size: 2; }
+.catalog-variant { display: flex; align-items: center; gap: 6px; margin-bottom: 12px; font-size: 12px; }
+@media (max-width: 700px) {
+  .components-page { padding: 16px; }
+  .catalog-layout { grid-template-columns: 1fr; gap: 24px; }
+  .catalog-sidebar { position: static; max-height: none; }
+  .catalog-sidebar nav { max-height: 130px; flex-direction: row; flex-wrap: wrap; gap: 6px 14px; overflow: auto; }
+  .components-page .design-header { position: static; }
+  .catalog-card { scroll-margin-top: 16px; }
+  .components-page .design-header > span { margin-left: 0; }
+}

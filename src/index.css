@@ -1,0 +1,4 @@
+:root { font-family: Arial, sans-serif; color: #000; background: #fff; color-scheme: light; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+button { font: inherit; }

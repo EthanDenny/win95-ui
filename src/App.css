@@ -1,0 +1,32 @@
+.display-viewport { position: relative; width: 100%; height: 100dvh; overflow: auto; background: #000; }
+.desktop-shell { position: absolute; width: 640px; height: 480px; overflow: hidden; transform-origin: top left; }
+.resize-hit-target { position: absolute; border: 0; padding: 0; margin: 0; background: transparent; outline: none; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+.desktop-app-window, .desktop-taskbar-layer, .desktop-start-layer { position: absolute; }
+.desktop-taskbar-layer { z-index: 100; }
+.desktop-start-layer { z-index: 101; }
+.resize-hit-target { z-index: 5; touch-action: none; user-select: none; }
+.resize-n, .resize-s { left: 12px; right: 12px; height: 4px; }
+.resize-n { top: 0; }
+.resize-s { bottom: 0; }
+.resize-e, .resize-w { top: 12px; bottom: 12px; width: 4px; }
+.resize-e { right: 0; }
+.resize-w { left: 0; }
+.resize-nw, .resize-ne, .resize-sw, .resize-se { width: 12px; height: 12px; }
+.resize-nw { top: 0; left: 0; }
+.resize-ne { top: 0; right: 0; }
+.resize-sw { bottom: 0; left: 0; }
+.resize-se { bottom: 0; right: 0; width: 19px; height: 18px; }
+
+.desktop-app-window { overflow: hidden; }
+
+.desktop-window-frame { position: absolute; inset: 0; pointer-events: none; }
+.desktop-browser-frame { --window-edge: #c0c0c0; }
+.desktop-title-background { position: absolute; height: 18px; z-index: 2; pointer-events: none; }
+.desktop-title img { left: 1px; top: 2px; }
+.desktop-title-calculator img { left: 2px; }
+.desktop-title[data-active=false] { color: #fff; }
+.w95-app-content { position: absolute; inset: 0; z-index: 2; pointer-events: none; }
+.w95-app-content > * { pointer-events: auto; }
+
+.desktop-app-window:focus { outline: none; }
