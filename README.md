@@ -1,6 +1,6 @@
 # Win95 UI
 
-Pixel-accurate Windows 95 components for React, extracted from Chat95.
+Pixel-accurate Windows 95 components for React.
 
 ## Use
 
