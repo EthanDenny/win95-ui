@@ -27,7 +27,7 @@ export default function ComponentsPage() {
     if (location.hash) requestAnimationFrame(() => document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView())
   }, [])
   return <main className="design-page components-page">
-    <header className="design-header"><h1>Components</h1><a href="/test/desktop">Desktop</a><a href="/test/design">Design specimens</a><span>{entries.length} reusable components · 2× pixels</span></header>
+    <header className="design-header"><h1>Components</h1><a href="/desktop">Desktop</a><a href="/design">Design specimens</a><span>{entries.length} reusable components · 2× pixels</span></header>
     <div className="catalog-layout">
       <aside className="catalog-sidebar">
         <label>Find a component<input type="search" value={query} placeholder="Name or filename" onChange={event => setQuery(event.target.value)} /></label>

@@ -78,7 +78,7 @@ This checks all source hashes and compares every exported glyph bitmap, advance,
 
 To recover the original files again, download the PCjs image to a temporary location, then run `python scripts/recover-fonts.py /path/to/WIN95.json`. The script extracts only the three pinned font files and verifies every hash before writing. It does not execute, install, or mount the OS image.
 
-The typography section at `/test/design#typography` shows all three families at the existing fixed 2× physical-pixel scale. Interactive mode offers the available native family/size/weight combinations.
+The typography section at `/design#typography` shows all three families at the existing fixed 2× physical-pixel scale. Interactive mode offers the available native family/size/weight combinations.
 
 The independent screenshot specimens and complete repertoire sheets are at `/reference/fonts/`. Fixed-coordinate comparisons cover regular UI text, bold captions, native System lettering, and Fixedsys document text, with zero differing pixels. These samples validate the displayed strings; native-file verification covers the complete exported repertoire. No claim is made about unimplemented Windows font families, TrueType rasterization, other code pages, high-DPI font variants, or every possible GDI rendering mode.
 

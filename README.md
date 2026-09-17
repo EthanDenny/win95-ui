@@ -22,7 +22,7 @@ npm run dev
 ```
 
 The specimen site opens the component catalog at `/`, with the design sheet at
-`/test/design` and the desktop recreation at `/test/desktop`.
+`/design` and the desktop recreation at `/desktop`.
 
 The package is currently distributed to Chat95 as a versioned `npm pack`
 artifact because both repositories are private. Update the package version, run

@@ -1,6 +1,6 @@
 # Desktop app references and verification
 
-The desktop at `/test/desktop` includes Calculator, Control Panel, and an Internet Explorer 3 recreation. The component gallery at `/test/design` includes the shared typography catalog.
+The desktop at `/desktop` includes Calculator, Control Panel, and an Internet Explorer 3 recreation. The component gallery at `/design` includes the shared typography catalog.
 
 ## Original screenshots
 

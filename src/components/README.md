@@ -1,8 +1,8 @@
 # Windows 95 components
 
 Open `/` or `/test/components` for every exported component, its filename, a live example,
-state controls, and its source. `/test/design` retains the visual specimen sheet;
-`/test/desktop` exercises the same components in applications.
+state controls, and its source. `/design` retains the visual specimen sheet;
+`/desktop` exercises the same components in applications.
 
 Import components directly from their source files. Each component owns its shared
 styles; no desktop application imports are needed. Geometry is specified in original

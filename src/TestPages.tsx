@@ -5,8 +5,8 @@ const Design = lazy(() => import('./DesignPage'))
 const Components = lazy(() => import('./ComponentsPage'))
 const routes = {
   '': { page: Components, title: 'Win95 UI · Components' },
-  '/test/desktop': { page: Desktop, title: 'Windows 95 Desktop' },
-  '/test/design': { page: Design, title: 'Windows 95 · Design' },
+  '/desktop': { page: Desktop, title: 'Windows 95 Desktop' },
+  '/design': { page: Design, title: 'Windows 95 · Design' },
   '/test/components': { page: Components, title: 'Windows 95 · Components' },
 }
 const path = window.location.pathname.replace(/\/$/, '')

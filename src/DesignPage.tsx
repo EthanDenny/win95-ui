@@ -40,7 +40,7 @@ function DesignPage() {
     { id: 'surfaces', title: 'Surfaces', content: <SurfaceSpecimens scale={scale} /> },
     { id: 'icons', title: 'Icons', content: <IconSpecimens scale={scale} /> },
   ]
-  return <main className="design-page"><header className="design-header"><h1>Components</h1><a href="/test/desktop">Desktop</a><a href="/test/components">Component catalog</a><label className="interactive-mode"><input type="checkbox" checked={interactive} onChange={event => { setInteractive(event.target.checked); localStorage.setItem('design-interactive', String(event.target.checked)) }} /> Interactive</label></header>
+  return <main className="design-page"><header className="design-header"><h1>Components</h1><a href="/desktop">Desktop</a><a href="/test/components">Component catalog</a><label className="interactive-mode"><input type="checkbox" checked={interactive} onChange={event => { setInteractive(event.target.checked); localStorage.setItem('design-interactive', String(event.target.checked)) }} /> Interactive</label></header>
     {interactive ? <Suspense fallback={<p>Loading components…</p>}><InteractiveGallery scale={scale} /></Suspense> : <>
       <section id="typography" className="design-section"><h2>Typography</h2><label className="sample-text-label">Sample text<input value={sampleText} maxLength={80} onChange={event => setSampleText(event.target.value)} spellCheck={false} /></label><div className="sample-grid"><TypographySpecimens scale={scale} text={sampleText} /></div></section>
       <section id="window-chrome" className="design-section"><h2>Window chrome</h2><div className="sample-grid"><TitleSpecimens scale={scale} /></div><div className="sample-grid"><CaptionSpecimens scale={scale} /></div></section>
