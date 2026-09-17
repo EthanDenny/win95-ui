@@ -104,7 +104,7 @@ export function paintBrowser(ctx: CanvasRenderingContext2D, width: number, heigh
     })
     const lines = current === 'about:help' ? ['Type about:home or about:windows in Address.', 'Use Back and Forward to revisit pages.', 'Internet addresses open in your modern browser.', 'This desktop includes working local pages.'] : current === 'about:windows' ? ['Windows 95 introduced the Start menu,', 'taskbar, and a new Explorer desktop.', 'Try Calculator and Control Panel from Start.', 'Drag title bars to arrange your workspace.'] : ['Explore your desktop, or type an address above.', 'These pages work locally without a network.', 'Use the scroll bar or mouse wheel to read more.', 'Open Control Panel to change the desktop color.']
     if (/^https?:\/\//i.test(current)) { p.text('Open website in your browser', 22, y + 112, 8, '#0000ff'); p.fill(22, y + 124, 150, 1, '#0000ff') }
-    lines.forEach((line, i) => { p.text(line, 22, y + 148 + i * 22) })
+    lines.forEach((line, i) => p.text(line, 22, y + 148 + i * 22))
     p.text('You have reached the end of this page.', 22, y + 345)
   })
   edges.status({ x: 4, y: height - 21, width: width - 180, height: 17 })

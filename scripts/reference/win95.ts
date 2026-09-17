@@ -43,7 +43,7 @@ export function createPainter(context: CanvasRenderingContext2D) {
     }
   }
   const mask = (rows: string[], x: number, y: number, color: string = palette.black) => {
-    rows.forEach((row, dy) => { [...row].forEach((pixel, dx) => { if (pixel === '1') fill(x + dx, y + dy, 1, 1, color) }) })
+    rows.forEach((row, dy) => [...row].forEach((pixel, dx) => { if (pixel === '1') fill(x + dx, y + dy, 1, 1, color) }))
   }
   const computer = (x: number, y: number, scale = 1) => drawKitIcon(context, 'My Computer', x, y, 32, scale)
   const flag = (x: number, y: number) => drawStartFlag(context, x, y)

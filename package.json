@@ -34,7 +34,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint": "biome lint .",
+    "lint": "oxlint",
     "test": "tsx --tsconfig tsconfig.app.json --test scripts/test-*.ts",
     "verify:apps": "tsx scripts/verify-apps.ts",
     "verify:fonts": "tsx scripts/verify-fonts.ts"
@@ -43,12 +43,12 @@
     "react": "^19.0.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.5.14",
     "@napi-rs/canvas": "^1.0.9",
     "@types/node": "^24.13.3",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.7",
     "@vitejs/plugin-react": "^6.1.1",
+    "oxlint": "^1.81.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "tsx": "^4.23.13",

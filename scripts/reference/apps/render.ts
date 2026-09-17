@@ -52,7 +52,7 @@ export function paintApp(ctx: CanvasRenderingContext2D, w: AppWindow, apps: Desk
     p.titleBar(r, notice?.title ?? `${panelNames[apps.applet!]} Properties`)
     const index = apps.applet
     const lines = notice?.lines ?? (index === 4 ? ['Background', 'Choose a color for your desktop.', 'Changes apply immediately.'] : index === 18 ? ['Microsoft Windows 95', '4.00.950', 'React desktop recreation · 640 x 480', 'Runs locally in your web browser.'] : index === 3 ? ['Date and time', new Date().toLocaleString(), 'The taskbar follows your system clock.', 'Change your clock in your computer settings.'] : [panelNames[index!], 'This applet is an informational preview.', 'Hardware and operating-system settings', 'are managed by your computer.'])
-    lines.forEach((line, i) => { p.text(line, r.x + 18, r.y + 35 + i * 21) })
+    lines.forEach((line, i) => p.text(line, r.x + 18, r.y + 35 + i * 21))
     if (index === 4 && !notice) desktopColors.forEach((color, i) => {
       const swatch = { x: r.x + 18 + i * 48, y: r.y + 108, width: 40, height: 30 }
       p.buttonFrame(swatch, apps.background === color); p.fill(swatch.x + 4, swatch.y + 4, 32, 22, color)

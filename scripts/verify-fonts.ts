@@ -40,7 +40,7 @@ const specimens = fontChoices.map((choice, index) => {
   const height = lines.length * (font.height + 4) + 16
   const canvas = createCanvas(width, height), ctx = canvas.getContext('2d')
   ctx.fillStyle = '#ffffff'; ctx.fillRect(0, 0, width, height)
-  lines.forEach((line, row) => { drawBitmapText(ctx as unknown as CanvasRenderingContext2D, line, 8, 8 + row * (font.height + 4), choice.font) })
+  lines.forEach((line, row) => drawBitmapText(ctx as unknown as CanvasRenderingContext2D, line, 8, 8 + row * (font.height + 4), choice.font))
   writeFileSync(`${output}/repertoire-${index}.png`, canvas.toBuffer('image/png'))
   return { ...choice, width, height, glyphs: Object.keys(font.glyphs).length, source: font.source, cellHeight: font.height }
 })
