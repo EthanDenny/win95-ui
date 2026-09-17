@@ -23,7 +23,7 @@ export function drawDesktop(ctx: CanvasRenderingContext2D, state: DesktopState, 
     })
   })
   const active = state.windows.findLast(w => !w.minimized)?.id
-  if (!domWindows) state.windows.filter(w => !w.minimized).forEach(w => paintApp(ctx, w, state.apps, w.id === active, state.pressed?.app === w.id ? state.pressed.id : null, state.editingAddress))
+  if (!domWindows) state.windows.filter(w => !w.minimized).forEach(w => { paintApp(ctx, w, state.apps, w.id === active, state.pressed?.app === w.id ? state.pressed.id : null, state.editingAddress) })
   if (!domWindows) {
     p.fill(0, TASKBAR_Y, 640, 30, palette.silver)
     p.fill(0, TASKBAR_Y, 640, 1, palette.light); p.fill(0, TASKBAR_Y + 1, 640, 1, palette.white)

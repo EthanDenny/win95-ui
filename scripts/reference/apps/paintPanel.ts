@@ -31,7 +31,7 @@ export function paintPanel(ctx: CanvasRenderingContext2D, width: number, height:
     const labelWidth = Math.max(...lines.map(line => measureBitmapText(line))) + 4
     const labelX = r.x + Math.floor((r.width - labelWidth) / 2)
     if (selection === i) p.fill(labelX, r.y + 37, labelWidth, lines.length * 13, palette.navy)
-    lines.forEach((line, j) => p.text(line, r.x + Math.floor((r.width - measureBitmapText(line)) / 2), r.y + 37 + j * 13, 8, selection === i ? palette.white : palette.black))
+    lines.forEach((line, j) => { p.text(line, r.x + Math.floor((r.width - measureBitmapText(line)) / 2), r.y + 37 + j * 13, 8, selection === i ? palette.white : palette.black) })
     if (selection === i || (selection === -1 && i === 0)) {
       const x = labelX, y = r.y + 37, width = labelWidth, height = lines.length * 13
       ctx.save(); ctx.globalCompositeOperation = 'difference'
