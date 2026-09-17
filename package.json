@@ -5,6 +5,7 @@
   "type": "module",
   "description": "Pixel-accurate Windows 95 React components.",
   "files": [
+    "docs/screenshots",
     "src/assets",
     "src/components",
     "src/fonts",

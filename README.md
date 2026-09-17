@@ -2,6 +2,20 @@
 
 Pixel-accurate Windows 95 components for React.
 
+## Screenshots
+
+### Desktop recreation
+
+![Windows 95 desktop recreation with Calculator open](docs/screenshots/desktop.png)
+
+### Component catalog
+
+![Win95 UI component catalog](docs/screenshots/components.png)
+
+### Design specimens
+
+![Win95 UI typography and design specimens](docs/screenshots/design.png)
+
 ## Use
 
 ```tsx
