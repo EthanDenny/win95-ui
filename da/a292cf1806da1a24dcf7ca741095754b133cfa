@@ -1,0 +1,37 @@
+scripts/reference/apps/render.ts
+  s_f6d442c1a95ae0::t_e9acc24dea0510 55
+biome.json
+  s_f6d442c1a95ae0::t_e9acc24dea0510 7-8,10,12-30
+  s_f6d442c1a95ae0::t_6d7c612970022d 9,11,31-43
+  s_f6d442c1a95ae0::t_c48f0e56bec0ce 1-6,44
+scripts/reference/apps/desktop.ts
+  s_f6d442c1a95ae0::t_e9acc24dea0510 26
+scripts/reference/win95.ts
+  s_f6d442c1a95ae0::t_e9acc24dea0510 46
+scripts/reference/apps/paintBrowser.ts
+  s_f6d442c1a95ae0::t_e9acc24dea0510 107
+scripts/verify-fonts.ts
+  s_f6d442c1a95ae0::t_e9acc24dea0510 43
+scripts/reference/apps/paintPanel.ts
+  s_f6d442c1a95ae0::t_e9acc24dea0510 34
+package.json
+  s_f6d442c1a95ae0::t_3b3a99b99dc888 37,46
+package-lock.json
+  s_f6d442c1a95ae0::t_b753e93b2982d7 11,27-189
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "daa292cf1806da1a24dcf7ca741095754b133cfa",
+  "prompts": {},
+  "sessions": {
+    "s_f6d442c1a95ae0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0af51-07d4-7173-a75a-eb3161a50456",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Ethan Denny <ethandenny@protonmail.com>"
+    }
+  }
+}
