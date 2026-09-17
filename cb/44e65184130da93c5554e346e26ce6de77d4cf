@@ -1,0 +1,37 @@
+public/reference/fonts/index.html
+  s_f6d442c1a95ae0::t_50e61f2d7535cd 1
+src/assets/fonts/README.md
+  s_f6d442c1a95ae0::t_470e90c1d3a348 81
+scripts/verify-fonts.ts
+  s_f6d442c1a95ae0::t_470e90c1d3a348 48
+public/reference/apps/README.md
+  s_f6d442c1a95ae0::t_470e90c1d3a348 3
+src/ComponentsPage.tsx
+  s_f6d442c1a95ae0::t_470e90c1d3a348 30
+public/fonts/README.md
+  s_f6d442c1a95ae0::t_470e90c1d3a348 81
+src/components/README.md
+  s_f6d442c1a95ae0::t_470e90c1d3a348 4-5
+README.md
+  s_f6d442c1a95ae0::t_470e90c1d3a348 25
+src/DesignPage.tsx
+  s_f6d442c1a95ae0::t_470e90c1d3a348 43
+src/TestPages.tsx
+  s_f6d442c1a95ae0::t_470e90c1d3a348 8-9
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "cb44e65184130da93c5554e346e26ce6de77d4cf",
+  "prompts": {},
+  "sessions": {
+    "s_f6d442c1a95ae0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0af51-07d4-7173-a75a-eb3161a50456",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "Ethan Denny <ethandenny@protonmail.com>"
+    }
+  }
+}
