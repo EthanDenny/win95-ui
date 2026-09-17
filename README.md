@@ -2,20 +2,6 @@
 
 Pixel-accurate Windows 95 components for React.
 
-## Screenshots
-
-### Desktop recreation
-
-![Windows 95 desktop recreation with Calculator open](docs/screenshots/desktop.png)
-
-### Component catalog
-
-![Win95 UI component catalog](docs/screenshots/components.png)
-
-### Design specimens
-
-![Win95 UI typography and design specimens](docs/screenshots/design.png)
-
 ## Use
 
 ```tsx
@@ -41,3 +27,17 @@ The specimen site opens the component catalog at `/`, with the design sheet at
 The package is currently distributed to Chat95 as a versioned `npm pack`
 artifact because both repositories are private. Update the package version, run
 `npm pack`, and replace Chat95's pinned tarball when releasing a change.
+
+## Screenshots
+
+### Desktop recreation
+
+![Windows 95 desktop recreation with Calculator open](docs/screenshots/desktop.png)
+
+### Component catalog
+
+![Win95 UI component catalog](docs/screenshots/components.png)
+
+### Design specimens
+
+![Win95 UI typography and design specimens](docs/screenshots/design.png)
